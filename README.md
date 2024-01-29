@@ -3,6 +3,8 @@
 ## Project Overview
 This interactive map showcases the buildings managed by a specific real estate company in Dubai. Utilizing Python and the Folium library, this project provides an intuitive visual representation of the company's property locations throughout the city.
 
+![Interactive Map Screenshot](icons/map.png "Interactive Dubai Real Estate Map")
+
 ## Features
 - Interactive markers representing each building.
 - Integration with the Jawg Maps API for up-to-date mapping.
@@ -16,3 +18,9 @@ To use this interactive map, you will need to:
 
 ```bash
 pip install folium PyQt5 QtWebEngineWidgets
+```
+## Usage
+To run the interactive map, execute the following command:
+```bash
+python GeoDubai.py
+```
